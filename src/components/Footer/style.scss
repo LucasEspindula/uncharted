@@ -1,0 +1,12 @@
+@import "@/assets/scss/index.scss";
+
+footer {
+  div {
+    text-align: center;
+    color: $color-secondary;
+    background-color: $color-primary;
+    p {
+      margin-bottom: -5px;
+    }
+  }
+}

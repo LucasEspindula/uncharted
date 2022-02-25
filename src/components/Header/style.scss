@@ -1,0 +1,26 @@
+@import "@/assets/scss/index.scss";
+
+.nav-color-background {
+  background-color: $color-primary;
+}
+
+.nav-config {
+  gap: 15px;
+
+  a {
+    color: $color-secondary !important;
+
+    &:hover {
+      color: $color-secondary-hover !important;
+      border-color: $color-secondary-hover !important;
+    }
+  }
+}
+
+.border-config {
+  a {
+    padding: 2px 0;
+    border-radius: 3px;
+    border: $color-secondary solid 2px;
+  }
+}
